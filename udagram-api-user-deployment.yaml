@@ -26,6 +26,11 @@ spec:
             initialDelaySeconds: 3
             periodSeconds: 5
           env:
+          - name: POSTGRES_HOST
+            valueFrom:
+              configMapKeyRef:
+                name: env-configmap
+                key: POSTGRES_HOST
           - name: POSTGRES_DB
             valueFrom:
               configMapKeyRef:

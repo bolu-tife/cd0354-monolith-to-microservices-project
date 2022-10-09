@@ -31,6 +31,11 @@ spec:
               configMapKeyRef:
                 name: env-configmap
                 key: POSTGRES_DB
+          - name: POSTGRES_HOST
+            valueFrom:
+              configMapKeyRef:
+                name: env-configmap
+                key: POSTGRES_HOST
           - name: AWS_BUCKET
             valueFrom:
               configMapKeyRef:
