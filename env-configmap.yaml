@@ -3,10 +3,10 @@ kind: ConfigMap
 metadata:
   name: env-configmap 
 data:
-  POSTGRES_HOST: monmicro.cqa5tqscykbd.us-east-1.rds.amazonaws.com
-  POSTGRES_DB: monmicro
-  AWS_BUCKET: monmicro-006183292579-dev
+  POSTGRES_HOST: minmicro.cs6ycqzzjs15.us-east-2.rds.amazonaws.com
+  POSTGRES_DB: minmicro
+  AWS_BUCKET: monmicro-006183292579-dev2
   URL: http://localhost:8100
-  AWS_REGION: us-east-1
+  AWS_REGION: us-east-2
   AWS_PROFILE: default
   
