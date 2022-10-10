@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: udagram-api-feed
-          image: boluomo/udagram-api-feed:v4
+          image: boluomo/udagram-api-feed:v5
           imagePullPolicy: Always
           resources:
             requests:

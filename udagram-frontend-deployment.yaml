@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: udagram-frontend
-        image: boluomo/udagram-frontend:v8
+        image: boluomo/udagram-frontend:v5
         ports:
         - containerPort: 80
         resources:
